@@ -1,0 +1,16 @@
+{
+  "name": "jogo-do-termo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "cp -r src/assets dist && tsc",
+    "publish": "git subtree push --prefix dist origin gh-pages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "description": ""
+}
